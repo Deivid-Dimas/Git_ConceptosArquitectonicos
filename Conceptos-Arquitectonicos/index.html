@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/carousel_1.css">
+    <link rel="stylesheet" href="css/menu.css">
+
+</head>
+
+
+<body>
+    <header class="main-header">
+        <div class="container_header">
+          <nav class="navbar navbar-expand-lg main-nav px-0">
+            <!-- Image Logo -->
+            <div class="site-logo">
+              
+                <a class="navbar-brand" href="#">
+                <img src="img/ca.webp" alt="rajeshdas.com">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar icon-bar-1"></span>
+                <span class="icon-bar icon-bar-2"></span>
+                <span class="icon-bar icon-bar-3"></span>
+                </button>
+            </div>
+            <!-- Right Navbar -->
+            <div class="collapse navbar-collapse" id="mainMenu">
+              <ul class="navbar-nav ml-auto text-uppercase f1">
+                <li>
+                  <a href="#home" class="active active-first">home</a>
+                </li>
+                <li>
+                  <a href="#about">about us</a>
+                </li>
+                <li>
+                  <a href="#service">services</a>
+                </li>
+                <li>
+                  <a href="#project">projects</a>
+                </li>
+                <li>
+                  <a href="#team">team</a>
+                </li>
+                <li>
+                  <a href="#testimony">testimonils</a>
+                </li>
+                <li>
+                  <a href="#contact">contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <!-- /.container -->
+    </header>
+    
+        <!--carousel_1 -->
+        <div class="container" id="container">
+            <div class="caption" id="slider-caption">
+              <div class="caption-heading">
+                <h1>Lorem Ipsum</h1>
+              </div>
+              <div class="caption-subhead"><span>dolor sit amet, consectetur adipiscing elit. </span></div><a class="btn" href="#">Sit Amet</a>
+            </div>
+            <div class="left-col" id="left-col">
+              <div id="left-slider"></div>
+            </div>
+            <ul class="nav">
+              <li class="slide-up"> <a href="#"><</a></li>
+              <li class="slide-down"> <a id="down_button" href="#">></a></li>
+            </ul>
+          </div>
+
+    <!--carousel --> 
+    <div class="splitview skewed">
+        <div class="panel bottom">
+            <div class="content">
+                <div class="description">
+                    <h1>The original image.</h1>
+                    <p>This is how the image looks like before applying a duotone effect.</p>
+                </div>
+
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/original-image.jpg" alt="Original">
+            </div>
+        </div>
+
+        <div class="panel top">
+            <div class="content">
+                <div class="description">
+                    <h1>The duotone image.</h1>
+                    <p>This is how the image looks like after applying a duotone effect.</p>
+                </div>
+
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/duotone-image.jpg" alt="Duotone">
+            </div>
+        </div>
+
+        <div class="handle"></div>
+    </div>
+      
+    <script src="js/carousel.js"></script>
+    <script src="js/carousel_1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/menu.js"></script>
+
+</body>
+</html>
